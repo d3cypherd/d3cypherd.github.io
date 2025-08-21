@@ -1,0 +1,33 @@
+#main-content {
+  width: 750px;
+}
+
+aside#sidebar {
+  width: 100px;
+  min-height: 504px;
+  padding-left: 20px;
+  font-size: 12px;
+  line-height: 1.3;
+  background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
+}
+
+#main-content h1 {
+  font-size: 2.5em;
+}
+
+header a.button.resume {
+  position: absolute;
+  top: 150px;
+  right: 0;
+  background: transparent url(../images/resume-button.png) 0 0 no-repeat;
+}
+
+.post-list {
+  list-style: none;   /* remove default bullets */
+  padding: 0;
+  margin: 0;
+}
+
+#main-content .post-list h3 {
+  margin-top: 10px;
+}
